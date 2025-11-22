@@ -1,0 +1,9 @@
+.subtitulo {
+    font-family: var(--letra-Montserrat);
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 3rem 0;
+    color: var(--color-blanco);
+}

@@ -1,0 +1,136 @@
+.cont-inicio {
+    background:
+        radial-gradient(circle,
+            rgba(0, 0, 0, 0) 40%,
+            rgba(0, 0, 0, 0.6) 100%),
+        url(../../img/UI/fondo.png);
+    background-size: cover;
+    background-position: 150px center;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    color: var(--color-dorado);
+    font-family: var(--letra-Playfair);
+    text-transform: uppercase;
+}
+
+.cont-inicio h1 {
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+
+.cont-inicio h2 {
+    font-family: var(--letra-Montserrat);
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+.btn-comprar {
+    border: 2px solid var(--color-dorado);
+    color: var(--color-dorado);
+    border-radius: 0;
+}
+
+.btn-comprar:hover {
+    background-color: var(--color-dorado);
+    color: var(--color-fondo);
+}
+
+.sub-home::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0.09rem;
+    margin: 1rem auto 0 auto;
+    background: var(--color-blanco);
+    opacity: .1;
+}
+.columnas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iconos {
+    border: 2px solid var(--color-dorado);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    font-size: 3rem;
+    font-weight: 200;
+    color: var(--color-dorado);
+}
+
+.elegir p {
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    color: var(--color-blanco);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: var(--letra-Montserrat);
+}
+
+.sub-elegir {
+    padding: 0;
+}
+.sub-elegir-p{
+    margin: 0 !important;
+    font-weight: 400 !important;
+}
+
+.comprar {
+    background: var(--color-dorado);
+    border-radius: 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+.comprar:hover {
+    background: none;
+    border: 2px solid var(--color-dorado);
+    color: var(--color-dorado);
+}
+
+
+@media (max-width: 1200px) {
+    .cont-inicio {
+        background: 
+        url(../../img/UI/fondo.png);
+        background-size: cover;
+        background-position: -500px center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .cont-inicio::after {
+        background: linear-gradient(to right,
+            rgba(0, 0, 0, 1),
+            rgba(0, 0, 0, 0.5)
+        );
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+
+    }
+
+    .cont-hijo {
+        z-index: 2;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .cont-inicio {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+}
