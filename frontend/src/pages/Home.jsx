@@ -15,7 +15,7 @@ export default function Home() {
           <div className="row">
             <div className="col">
               <h1>Full Liquors & Bebidas</h1>
-              <h2 className="mb-4">Explora - Disfruta - Cree</h2>
+              <h2 className="mb-4">Explora - Disfruta - Jopea</h2>
               <Link to="/products" className="btn btn-bg-none btn-comprar py-3 px-5">
                 Ir a productos
               </Link>

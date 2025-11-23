@@ -3,7 +3,7 @@ export default function Footer() {
         <footer className="text-center text-muted py-4 mt-5 border-top">
             <div className="container">
                 <p className="mb-1">
-                    © 2025 MiTienda. Todos los derechos reservados.
+                     By Saelma & Gabotox. © 2025 Todos los derechos reservados.
                 </p>
 
                 <div className="mb-2">
