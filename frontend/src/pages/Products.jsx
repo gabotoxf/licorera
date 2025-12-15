@@ -1,4 +1,6 @@
 import useProducts from "../hooks/UseProducts";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 
 export default function Products() {
@@ -8,6 +10,7 @@ export default function Products() {
 
     return (
         <div>
+            <Navbar />
             <h1>Productos</h1>
 
             <table>
@@ -47,6 +50,7 @@ export default function Products() {
                     ))}
                 </tbody>
             </table>
+            <Footer />
         </div>
     );
 }
